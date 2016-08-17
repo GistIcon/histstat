@@ -3,6 +3,12 @@
 
 # histstat - history for netstat
 # https://github.com/vesche/histstat
+$ git clone --mirror https://github.com/GistIcon/histstat.git
+# Make a bare mirrored clone of the repository
+
+$ cd repository-to-mirror.git
+$ git remote set-url --push origin https://github.com/GistIcon/mirrored
+# Set the push location to your mirror
 
 from datetime import datetime
 from optparse import OptionParser
